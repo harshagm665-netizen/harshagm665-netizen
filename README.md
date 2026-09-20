@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=220&section=header&text=Harsha%20G%20M&fontSize=60&fontColor=58a6ff&fontAlignY=35&desc=Robotics%20%26%20AI%20Systems%20Engineer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=58a6ff&height=220&section=header&text=Harsha%20G%20M&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Robotics%20and%20AI%20Systems%20Engineer&descSize=18&descColor=e6edf3&descAlignY=55&animation=fadeIn" width="100%"/>
 
 <!-- Animated Typing SVG -->
 <a href="https://github.com/harshagm665-netizen">
@@ -19,17 +19,15 @@
 
 ---
 
-<img align="right" width="320" src="https://raw.githubusercontent.com/harshagm665-netizen/harshagm665-netizen/main/assets/robot-animation.gif" alt="Robot Animation" onerror="this.style.display='none'"/>
-
 ## 🧑‍💻 About Me
 
 ```yaml
 name: Harsha G M
-role: Robotics & AI Systems Engineer
+role: Robotics and AI Systems Engineer
 focus:
   - Autonomous Mobile Robots (AMR)
-  - Edge AI & Real-time Perception
-  - Full-stack Robotics (Hardware → Software)
+  - Edge AI and Real-time Perception
+  - Full-stack Robotics (Hardware to Software)
   - LLM-powered Intelligent Systems
 stack:
   - ROS2 Jazzy | Nav2 | SLAM Toolbox
@@ -40,8 +38,6 @@ currently: Seeking Robotics Engineer roles in Bengaluru
 philosophy: "Ship robots that work in the real world, not just in simulation."
 ```
 
-<br clear="right"/>
-
 ---
 
 ## 🔬 What I Build
@@ -51,7 +47,7 @@ philosophy: "Ship robots that work in the real world, not just in simulation."
 | Domain | What I Do | Stack |
 |:------:|:---------:|:-----:|
 | 🤖 **Autonomous Navigation** | SLAM mapping, path planning, obstacle avoidance on real hardware | ROS2, Nav2, AMCL, LiDAR |
-| 🧠 **Edge AI & Vision** | Real-time object detection optimized for embedded devices | YOLOv8, OpenCV, RPi/Jetson |
+| 🧠 **Edge AI and Vision** | Real-time object detection optimized for embedded devices | YOLOv8, OpenCV, RPi/Jetson |
 | 📡 **Sensor Fusion** | Multi-sensor EKF fusion, odometry calibration, state estimation | robot_localization, IMU, Encoders |
 | ⚡ **Embedded Systems** | Motor control firmware, custom UART protocols, PID loops | ESP32, FreeRTOS, C++ |
 | 🧬 **AI / LLM Systems** | RAG pipelines, multi-agent workflows, semantic search | LangGraph, FastAPI, Qdrant |
@@ -92,7 +88,7 @@ philosophy: "Ship robots that work in the real world, not just in simulation."
 
 <div align="center">
 
-### 🤖 Robotics & Autonomy
+### 🤖 Robotics and Autonomy
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![Nav2](https://img.shields.io/badge/Nav2-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![SLAM](https://img.shields.io/badge/SLAM_Toolbox-4B0082?style=for-the-badge)
@@ -106,21 +102,21 @@ philosophy: "Ship robots that work in the real world, not just in simulation."
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Shell](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-### 🧠 AI & Machine Learning
+### 🧠 AI and Machine Learning
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
 
-### ⚡ Embedded & Hardware
+### ⚡ Embedded and Hardware
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi_5-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-59B256?style=for-the-badge)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![RPLiDAR](https://img.shields.io/badge/RPLiDAR-333333?style=for-the-badge)
 
-### 🏗️ Infrastructure & DevOps
+### 🏗️ Infrastructure and DevOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
@@ -154,26 +150,39 @@ philosophy: "Ship robots that work in the real world, not just in simulation."
 > My flagship project: a full autonomous navigation pipeline running on real hardware.
 
 ```
-RPLiDAR A1M8 → SLAM Mapping → Nav2 Planning → Motor Control → ESP32 Actuators
-     ↑                                                              ↓
-     └────────────── Encoder Odometry ← 50 Hz PID Loop ←──────────┘
+RPLiDAR A1M8 --> SLAM Mapping --> Nav2 Planning --> Motor Control --> ESP32 Actuators
+     ^                                                                    |
+     +---------------------- Encoder Odometry <-- 50 Hz PID Loop <--------+
 ```
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  Raspberry Pi 5  ──  ROS2 Jazzy                             │
-│  ┌─────────────┐  ┌──────────────┐  ┌──────────────────┐   │
-│  │  AMCL        │  │  NavFn       │  │  DWB Controller  │   │
-│  │  Localization│→ │  Global Plan │→ │  Local Planner   │   │
-│  └──────┬──────┘  └──────────────┘  └────────┬─────────┘   │
-│         │                                      │             │
-│    /tf: map→odom                          /cmd_vel           │
-│         ↑                                      ↓             │
-│  ┌──────┴──────┐                    ┌──────────┴─────────┐  │
-│  │  kali_base  │←── UART ──────────→│  ESP32 (FreeRTOS)  │  │
-│  │  Odometry   │    Binary Protocol │  50 Hz PI Control  │  │
-│  └─────────────┘                    └────────────────────┘  │
-└─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|  Raspberry Pi 5  --  ROS2 Jazzy                              |
+|  +--------------+  +--------------+  +------------------+    |
+|  |  AMCL        |  |  NavFn       |  |  DWB Controller  |    |
+|  |  Localization|->|  Global Plan |->|  Local Planner   |    |
+|  +------+-------+  +--------------+  +--------+---------+    |
+|         |                                      |              |
+|    /tf: map->odom                          /cmd_vel           |
+|         ^                                      |              |
+|  +------+-------+                    +---------v----------+   |
+|  |  kali_base   |<--- UART -------->|  ESP32 (FreeRTOS)  |   |
+|  |  Odometry    |    Binary Protocol|  50 Hz PI Control  |   |
+|  +--------------+                    +--------------------+   |
++-------------------------------------------------------------+
+```
+
+---
+
+## 🎯 Current Focus
+
+```diff
++ Building production-grade AMR navigation stacks with ROS2
++ Exploring multi-modal RAG and agentic AI architectures
++ Designing custom UART protocols for real-time embedded control
++ Benchmarking sensor fusion algorithms on real-world datasets
+! Learning: Gazebo simulation, IMU fusion via EKF, fleet orchestration
+# Open to: Robotics Engineer roles | AMR fleets | Edge AI systems
 ```
 
 ---
@@ -188,22 +197,9 @@ RPLiDAR A1M8 → SLAM Mapping → Nav2 Planning → Motor Control → ESP32 Actu
 
 ---
 
-## 🎯 Current Focus
-
-```diff
-+ 🔭 Building production-grade AMR navigation stacks with ROS2
-+ 🧠 Exploring multi-modal RAG and agentic AI architectures
-+ 🔧 Designing custom UART protocols for real-time embedded control
-+ 📐 Benchmarking sensor fusion algorithms on real-world datasets
-! 🌱 Learning: Gazebo simulation, IMU fusion via EKF, fleet orchestration
-# 💡 Open to: Robotics Engineer roles | AMR fleets | Edge AI systems
-```
-
----
-
 <div align="center">
 
-## 🤝 Let's Connect & Build
+## 🤝 Let's Connect
 
 <br/>
 
@@ -216,19 +212,7 @@ RPLiDAR A1M8 → SLAM Mapping → Nav2 Planning → Motor Control → ESP32 Actu
 
 <br/>
 
-<!-- Snake Animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshagm665-netizen/harshagm665-netizen/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harshagm665-netizen/harshagm665-netizen/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/harshagm665-netizen/harshagm665-netizen/output/github-snake-dark.svg" />
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+<!-- Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=58a6ff&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
