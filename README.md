@@ -10,7 +10,7 @@
 
 <br/>
 
-<!-- Social Badges -->
+<!-- Badges -->
 [![GitHub](https://img.shields.io/badge/GitHub-harshagm665--netizen-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/harshagm665-netizen)
 [![Profile Views](https://komarev.com/ghpvc/?username=harshagm665-netizen&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS)](https://github.com/harshagm665-netizen)
 [![Repos](https://img.shields.io/badge/Public%20Repos-12-58a6ff?style=for-the-badge&logo=github)](https://github.com/harshagm665-netizen?tab=repositories)
@@ -59,28 +59,75 @@ philosophy: "Ship robots that work in the real world, not just in simulation."
 
 ## 🏆 Featured Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/harshagm665-netizen/amr-nav-stack">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=harshagm665-netizen&repo=amr-nav-stack&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=8b949e" />
-</a>
-<a href="https://github.com/harshagm665-netizen/nclt-robot-localization-benchmark">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=harshagm665-netizen&repo=nclt-robot-localization-benchmark&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=8b949e" />
-</a>
-<a href="https://github.com/harshagm665-netizen/RoboVision-Edge-AI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=harshagm665-netizen&repo=RoboVision-Edge-AI&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=8b949e" />
-</a>
-<a href="https://github.com/harshagm665-netizen/Advance-ai-copilot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=harshagm665-netizen&repo=Advance-ai-copilot&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=8b949e" />
-</a>
-<a href="https://github.com/harshagm665-netizen/darwin-system">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=harshagm665-netizen&repo=darwin-system&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=8b949e" />
-</a>
-<a href="https://github.com/harshagm665-netizen/omnirag-multimodal-rag">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=harshagm665-netizen&repo=omnirag-multimodal-rag&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=8b949e" />
-</a>
+### [🤖 AMR Nav Stack](https://github.com/harshagm665-netizen/amr-nav-stack)
+Full **ROS2 autonomous navigation stack** — SLAM mapping, Nav2 path planning, differential-drive odometry, and custom UART hardware interface on **Raspberry Pi 5 + ESP32**.
 
-</div>
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![RPi](https://img.shields.io/badge/RPi5-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### [📡 NCLT Localization Benchmark](https://github.com/harshagm665-netizen/nclt-robot-localization-benchmark)
+Multi-sensor **EKF fusion benchmark** on the U-Michigan NCLT dataset — fuses degraded wheel odometry with IMU via `robot_localization` (ROS2 Humble). Quantifies **ATE RMSE improvement**.
+
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![EKF](https://img.shields.io/badge/EKF-4B0082?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🧠 RoboVision Edge AI](https://github.com/harshagm665-netizen/RoboVision-Edge-AI)
+Real-time **object detection and perception pipeline** using YOLOv8 optimized for edge devices (Raspberry Pi / Jetson).
+
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### [🧬 Advance AI Copilot](https://github.com/harshagm665-netizen/Advance-ai-copilot)
+**RAG-based hardware engineering copilot** — hybrid vector retrieval, LangGraph state machines, Redis semantic caching, and automated RAGAS evaluation pipeline.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🛡️ DARWIN System](https://github.com/harshagm665-netizen/darwin-system)
+**eBPF-powered security telemetry pipeline** — captures kernel-level execve syscalls, streams via Apache Kafka, stores in InfluxDB, visualizes in Grafana with Telegram alerting.
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### [📚 OmniRAG Multimodal](https://github.com/harshagm665-netizen/omnirag-multimodal-rag)
+Production-grade **Multimodal RAG pipeline** — ingests PDFs, images and tables with ColPali vision embeddings, Qdrant vector search, and citation-tracked FastAPI serving.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -134,12 +181,8 @@ philosophy: "Ship robots that work in the real world, not just in simulation."
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=harshagm665-netizen&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=f78166&text_color=8b949e&hide_border=false&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshagm665-netizen&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=8b949e&hide_border=false&langs_count=8" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=harshagm665-netizen&theme=github-dark-blue&background=0d1117&border=30363d&stroke=58a6ff&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681" />
+<!-- Streak Stats — verified working on demolab.com -->
+<img src="https://streak-stats.demolab.com?user=harshagm665-netizen&theme=github-dark-blue&background=0d1117&border=30363d&stroke=58a6ff&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681" />
 
 </div>
 
@@ -187,12 +230,15 @@ RPLiDAR A1M8 --> SLAM Mapping --> Nav2 Planning --> Motor Control --> ESP32 Actu
 
 ---
 
-## 📈 Contribution Activity
+## 🐍 Contribution Snake
 
+<!-- To enable, add the GitHub Actions workflow below -->
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=harshagm665-netizen&theme=github-dark&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f78166&area=true&area_color=1a1b27&hide_border=true" width="95%"/>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshagm665-netizen/harshagm665-netizen/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harshagm665-netizen/harshagm665-netizen/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/harshagm665-netizen/harshagm665-netizen/output/github-snake-dark.svg" />
+</picture>
 </div>
 
 ---
@@ -212,7 +258,6 @@ RPLiDAR A1M8 --> SLAM Mapping --> Nav2 Planning --> Motor Control --> ESP32 Actu
 
 <br/>
 
-<!-- Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=58a6ff&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
